@@ -13,10 +13,12 @@
     "@types/react-router-dom": "^5.1.0",
     "ionicons": "^4.6.3",
     "react": "^16.10.2",
+    "react-day-picker": "^7.4.0",
     "react-dom": "^16.10.2",
     "react-router": "^5.1.0",
     "react-router-dom": "^5.1.0",
     "react-scripts": "3.2.0",
+    "sass": "^1.23.7",
     "typescript": "3.6.3"
   },
   "scripts": {
