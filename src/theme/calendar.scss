@@ -1,0 +1,59 @@
+@import './brand-config.scss';
+
+.DayPicker {
+    width: 100%;
+    height: 75%;
+}
+.DayPicker-wrapper,
+.DayPicker-Months {
+    width: 100%;
+    height: 100%;
+} 
+
+.DayPicker-Month{
+    width: 100%;
+    height: 75%;
+}
+
+.DayPicker-Month {
+    margin: 0 !important;
+    margin-bottom: .5em;
+}
+
+.DayPicker-Caption {
+    font-size: 2.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center !important;
+}
+
+.DayPicker-Day:hover {
+    background-color: $brand-secondary;
+    color: #fff;
+    border-radius: 0;
+}
+
+.DayPicker-Day:focus {
+    outline: none;
+}
+
+.DayPicker-Day--today,
+.DayPicker-Day--today:hover {
+    color: $brand-primary !important;
+}
+
+.DayPicker-Day--today:hover {
+    color: #fff;
+}
+
+div[aria-label="Mon Dec 02 2019"],
+div[aria-label="Tue Dec 10 2019"],
+div[aria-label="Thu Jan 02 2020"],
+div[aria-label="Wed Jan 22 2020"],
+div[aria-label="Wed Feb 05 2020"],
+div[aria-label="Wed Feb 19 2020"],
+div[aria-label="Tue Mar 17 2020"] {
+    background-color: $brand-tertiary;
+    border-radius: 0;
+    color: #fff;
+}

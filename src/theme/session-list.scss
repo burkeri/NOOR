@@ -1,0 +1,15 @@
+@import './brand-config.scss';
+
+.list-container {
+    height: 25%;
+}
+
+.list-item {
+    --background: #B67EFF;
+    color: #fff;
+    border-bottom: #fff solid 1px;
+}
+
+.past-session {
+    --background: #D4B3FF;
+}

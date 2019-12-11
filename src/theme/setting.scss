@@ -1,0 +1,28 @@
+@import './brand-config.scss';
+
+.center-items {
+    text-align: center;
+}
+
+#center-items {
+    text-align: center;
+}
+
+.employee-icon {
+    font-size: 10rem;
+    color: $brand-tertiary;
+}
+
+.input-position {
+    float: right !important;
+    color: $brand-primary;
+    text-align: right;
+}
+
+#degree {
+    color: $brand-primary;
+}
+
+.selection-text {
+    color: $brand-primary;
+}

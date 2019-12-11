@@ -1,0 +1,33 @@
+@import './brand-config.scss';
+
+.btn-container {
+    text-align: center;
+}
+
+.go-button {
+    position: relative;
+    top: 16em;
+    width: 30%;
+    height:23%;
+}
+
+.icon-size {
+    font-size: 70px;
+    display: block !important;
+}
+
+#block {
+    margin-left: 1em;
+}
+.dark-mode {
+    --ion-background-color: #151318;
+}
+
+.dark-mode-btn {
+    opacity: .3;
+    color: $brand-secondary;
+}
+
+.dark-mode-icon {
+    color: $brand-quaternary;
+}
